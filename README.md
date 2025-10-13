@@ -16,6 +16,12 @@ Project : Koistudy Code Generator
 - Internet connection
 
 
+For Ubuntu :
+```
+sudo apt install jq curl g++
+```
+
+
 ### How to use
 This program can be used by :
 
