@@ -26,6 +26,12 @@ sudo apt install jq curl g++
 This program can be used by :
 
 ```
+git clone https://github.com/don-gik/Koistudy-Weird-Code-Generator
+cd Koistudy-Weird-Code-Generator
+```
+Download and cd into the folder. And then,
+
+```
 ./generate.sh -o [original file] \
               -g [generated path] \
               -t [target problem number] 
