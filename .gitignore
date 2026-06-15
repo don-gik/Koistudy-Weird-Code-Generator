@@ -1,0 +1,7 @@
+logs/
+inputs/
+outputs/
+tmp/
+
+
+gen.cpp

@@ -350,6 +350,7 @@ for (( i=1; i<=total_cases; i++ )); do
 
 
     printf '%s' "$runtime_out" \
+        | base64 -d \
         | _extract_output \
         | _decode_ctrl \
         > "inputs/case_$(printf '%02d' "$i").txt"
